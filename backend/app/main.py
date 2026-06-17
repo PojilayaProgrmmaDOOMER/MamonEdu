@@ -5,7 +5,7 @@ from app.routes.materials import router as materials_router
 from app.routes.tests import router as tests_router
 from app.routes.ontology import router as ontology_router
 from app.routes.practical import router as practical_router
-from app.routes.segmentation import router as segmentation_router
+#from app.routes.segmentation import router as segmentation_router
 from app.routes.users import router as users_router
 from app.routes.study_groups import router as study_groups_router
 from app.routes.material_search import router as material_search_router
@@ -39,7 +39,7 @@ app.include_router(materials_router)
 app.include_router(tests_router)
 app.include_router(ontology_router)
 app.include_router(practical_router)
-app.include_router(segmentation_router)
+#app.include_router(segmentation_router)
 app.include_router(users_router)
 app.include_router(study_groups_router)
 
