@@ -1,0 +1,36 @@
+# Python
+venv/
+__pycache__/
+*.pyc
+
+# Environment
+.env
+
+# Node
+node_modules/
+dist/
+
+# IDE
+.vscode/
+.idea/
+
+# Cache
+.pytest_cache/
+.mypy_cache/
+
+# Logs
+*.log
+
+# Generated files
+backend/static/certificates/
+backend/static/uploads/
+
+# Dataset
+*.zip
+*.tar
+*.gz
+*.rar
+
+# Windows
+Thumbs.db
+Desktop.ini

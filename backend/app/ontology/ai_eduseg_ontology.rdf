@@ -1,0 +1,531 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/mamon/ontologies/2026/4/untitled-ontology-7/"
+     xml:base="http://www.semanticweb.org/mamon/ontologies/2026/4/untitled-ontology-7/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:untitled-ontology-7="http://www.semanticweb.org/mamon/ontologies/2026/4/untitled-ontology-7#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/mamon/ontologies/2026/4/untitled-ontology-7"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/mamon/ontologies/2026/4/untitled-ontology-7#checks -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mamon/ontologies/2026/4/untitled-ontology-7#checks"/>
+    
+
+
+    <!-- http://www.semanticweb.org/mamon/ontologies/2026/4/untitled-ontology-7#explains -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mamon/ontologies/2026/4/untitled-ontology-7#explains"/>
+    
+
+
+    <!-- http://www.semanticweb.org/mamon/ontologies/2026/4/untitled-ontology-7#part_of -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mamon/ontologies/2026/4/untitled-ontology-7#part_of"/>
+    
+
+
+    <!-- http://www.semanticweb.org/mamon/ontologies/2026/4/untitled-ontology-7#related_to -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mamon/ontologies/2026/4/untitled-ontology-7#related_to"/>
+    
+
+
+    <!-- http://www.semanticweb.org/mamon/ontologies/2026/4/untitled-ontology-7#required_for -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mamon/ontologies/2026/4/untitled-ontology-7#required_for"/>
+    
+
+
+    <!-- http://www.semanticweb.org/mamon/ontologies/2026/4/untitled-ontology-7#requires -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mamon/ontologies/2026/4/untitled-ontology-7#requires"/>
+    
+
+
+    <!-- http://www.semanticweb.org/mamon/ontologies/2026/4/untitled-ontology-7#used_in -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mamon/ontologies/2026/4/untitled-ontology-7#used_in"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/mamon/ontologies/2026/4/untitled-ontology-7#Architecture -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mamon/ontologies/2026/4/untitled-ontology-7#Architecture"/>
+    
+
+
+    <!-- http://www.semanticweb.org/mamon/ontologies/2026/4/untitled-ontology-7#Concept -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mamon/ontologies/2026/4/untitled-ontology-7#Concept"/>
+    
+
+
+    <!-- http://www.semanticweb.org/mamon/ontologies/2026/4/untitled-ontology-7#Dataset -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mamon/ontologies/2026/4/untitled-ontology-7#Dataset"/>
+    
+
+
+    <!-- http://www.semanticweb.org/mamon/ontologies/2026/4/untitled-ontology-7#Material -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mamon/ontologies/2026/4/untitled-ontology-7#Material"/>
+    
+
+
+    <!-- http://www.semanticweb.org/mamon/ontologies/2026/4/untitled-ontology-7#Method -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mamon/ontologies/2026/4/untitled-ontology-7#Method"/>
+    
+
+
+    <!-- http://www.semanticweb.org/mamon/ontologies/2026/4/untitled-ontology-7#Metric -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mamon/ontologies/2026/4/untitled-ontology-7#Metric"/>
+    
+
+
+    <!-- http://www.semanticweb.org/mamon/ontologies/2026/4/untitled-ontology-7#Question -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mamon/ontologies/2026/4/untitled-ontology-7#Question"/>
+    
+
+
+    <!-- http://www.semanticweb.org/mamon/ontologies/2026/4/untitled-ontology-7#Task -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mamon/ontologies/2026/4/untitled-ontology-7#Task"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/mamon/ontologies/2026/4/untitled-ontology-7#AttentionUNet -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mamon/ontologies/2026/4/untitled-ontology-7#AttentionUNet">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mamon/ontologies/2026/4/untitled-ontology-7#Architecture"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mamon/ontologies/2026/4/untitled-ontology-7#BinarySegmentation -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mamon/ontologies/2026/4/untitled-ontology-7#BinarySegmentation">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mamon/ontologies/2026/4/untitled-ontology-7#Concept"/>
+        <untitled-ontology-7:part_of rdf:resource="http://www.semanticweb.org/mamon/ontologies/2026/4/untitled-ontology-7#ImageSegmentation"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mamon/ontologies/2026/4/untitled-ontology-7#BraTS -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mamon/ontologies/2026/4/untitled-ontology-7#BraTS">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mamon/ontologies/2026/4/untitled-ontology-7#Dataset"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mamon/ontologies/2026/4/untitled-ontology-7#CNN -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mamon/ontologies/2026/4/untitled-ontology-7#CNN">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mamon/ontologies/2026/4/untitled-ontology-7#Architecture"/>
+        <untitled-ontology-7:related_to rdf:resource="http://www.semanticweb.org/mamon/ontologies/2026/4/untitled-ontology-7#FeatureMap"/>
+        <untitled-ontology-7:related_to rdf:resource="http://www.semanticweb.org/mamon/ontologies/2026/4/untitled-ontology-7#Pooling"/>
+        <untitled-ontology-7:required_for rdf:resource="http://www.semanticweb.org/mamon/ontologies/2026/4/untitled-ontology-7#DeepLabV3"/>
+        <untitled-ontology-7:required_for rdf:resource="http://www.semanticweb.org/mamon/ontologies/2026/4/untitled-ontology-7#U-Net"/>
+        <untitled-ontology-7:requires rdf:resource="http://www.semanticweb.org/mamon/ontologies/2026/4/untitled-ontology-7#Convolution"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mamon/ontologies/2026/4/untitled-ontology-7#COCO -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mamon/ontologies/2026/4/untitled-ontology-7#COCO">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mamon/ontologies/2026/4/untitled-ontology-7#Dataset"/>
+        <untitled-ontology-7:used_in rdf:resource="http://www.semanticweb.org/mamon/ontologies/2026/4/untitled-ontology-7#InstanceSegmentation"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mamon/ontologies/2026/4/untitled-ontology-7#Cityscapes -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mamon/ontologies/2026/4/untitled-ontology-7#Cityscapes">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mamon/ontologies/2026/4/untitled-ontology-7#Dataset"/>
+        <untitled-ontology-7:used_in rdf:resource="http://www.semanticweb.org/mamon/ontologies/2026/4/untitled-ontology-7#RoadSegmentation"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mamon/ontologies/2026/4/untitled-ontology-7#Convolution -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mamon/ontologies/2026/4/untitled-ontology-7#Convolution">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mamon/ontologies/2026/4/untitled-ontology-7#Concept"/>
+        <untitled-ontology-7:related_to rdf:resource="http://www.semanticweb.org/mamon/ontologies/2026/4/untitled-ontology-7#FeatureMap"/>
+        <untitled-ontology-7:related_to rdf:resource="http://www.semanticweb.org/mamon/ontologies/2026/4/untitled-ontology-7#Kernel"/>
+        <untitled-ontology-7:related_to rdf:resource="http://www.semanticweb.org/mamon/ontologies/2026/4/untitled-ontology-7#Padding"/>
+        <untitled-ontology-7:related_to rdf:resource="http://www.semanticweb.org/mamon/ontologies/2026/4/untitled-ontology-7#Pooling"/>
+        <untitled-ontology-7:related_to rdf:resource="http://www.semanticweb.org/mamon/ontologies/2026/4/untitled-ontology-7#Stride"/>
+        <untitled-ontology-7:required_for rdf:resource="http://www.semanticweb.org/mamon/ontologies/2026/4/untitled-ontology-7#CNN"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mamon/ontologies/2026/4/untitled-ontology-7#DataAugmentation -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mamon/ontologies/2026/4/untitled-ontology-7#DataAugmentation">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mamon/ontologies/2026/4/untitled-ontology-7#Method"/>
+        <untitled-ontology-7:part_of rdf:resource="http://www.semanticweb.org/mamon/ontologies/2026/4/untitled-ontology-7#Preprocessing"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mamon/ontologies/2026/4/untitled-ontology-7#Decoder -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mamon/ontologies/2026/4/untitled-ontology-7#Decoder">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mamon/ontologies/2026/4/untitled-ontology-7#Concept"/>
+        <untitled-ontology-7:part_of rdf:resource="http://www.semanticweb.org/mamon/ontologies/2026/4/untitled-ontology-7#U-Net"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mamon/ontologies/2026/4/untitled-ontology-7#DeepLabV3 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mamon/ontologies/2026/4/untitled-ontology-7#DeepLabV3">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mamon/ontologies/2026/4/untitled-ontology-7#Architecture"/>
+        <untitled-ontology-7:requires rdf:resource="http://www.semanticweb.org/mamon/ontologies/2026/4/untitled-ontology-7#CNN"/>
+        <untitled-ontology-7:used_in rdf:resource="http://www.semanticweb.org/mamon/ontologies/2026/4/untitled-ontology-7#ImageSegmentation"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mamon/ontologies/2026/4/untitled-ontology-7#Dice -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mamon/ontologies/2026/4/untitled-ontology-7#Dice">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mamon/ontologies/2026/4/untitled-ontology-7#Metric"/>
+        <untitled-ontology-7:checks rdf:resource="http://www.semanticweb.org/mamon/ontologies/2026/4/untitled-ontology-7#ImageSegmentation"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mamon/ontologies/2026/4/untitled-ontology-7#Encoder -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mamon/ontologies/2026/4/untitled-ontology-7#Encoder">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mamon/ontologies/2026/4/untitled-ontology-7#Concept"/>
+        <untitled-ontology-7:part_of rdf:resource="http://www.semanticweb.org/mamon/ontologies/2026/4/untitled-ontology-7#U-Net"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mamon/ontologies/2026/4/untitled-ontology-7#F1Score -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mamon/ontologies/2026/4/untitled-ontology-7#F1Score">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mamon/ontologies/2026/4/untitled-ontology-7#Metric"/>
+        <untitled-ontology-7:checks rdf:resource="http://www.semanticweb.org/mamon/ontologies/2026/4/untitled-ontology-7#ImageSegmentation"/>
+        <untitled-ontology-7:related_to rdf:resource="http://www.semanticweb.org/mamon/ontologies/2026/4/untitled-ontology-7#Precision"/>
+        <untitled-ontology-7:related_to rdf:resource="http://www.semanticweb.org/mamon/ontologies/2026/4/untitled-ontology-7#Recall"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mamon/ontologies/2026/4/untitled-ontology-7#FCN -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mamon/ontologies/2026/4/untitled-ontology-7#FCN">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mamon/ontologies/2026/4/untitled-ontology-7#Architecture"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mamon/ontologies/2026/4/untitled-ontology-7#FeatureMap -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mamon/ontologies/2026/4/untitled-ontology-7#FeatureMap">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mamon/ontologies/2026/4/untitled-ontology-7#Concept"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mamon/ontologies/2026/4/untitled-ontology-7#ImageSegmentation -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mamon/ontologies/2026/4/untitled-ontology-7#ImageSegmentation">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mamon/ontologies/2026/4/untitled-ontology-7#Task"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mamon/ontologies/2026/4/untitled-ontology-7#InstanceSegmentation -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mamon/ontologies/2026/4/untitled-ontology-7#InstanceSegmentation">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mamon/ontologies/2026/4/untitled-ontology-7#Concept"/>
+        <untitled-ontology-7:part_of rdf:resource="http://www.semanticweb.org/mamon/ontologies/2026/4/untitled-ontology-7#ImageSegmentation"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mamon/ontologies/2026/4/untitled-ontology-7#IoU -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mamon/ontologies/2026/4/untitled-ontology-7#IoU">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mamon/ontologies/2026/4/untitled-ontology-7#Metric"/>
+        <untitled-ontology-7:checks rdf:resource="http://www.semanticweb.org/mamon/ontologies/2026/4/untitled-ontology-7#ImageSegmentation"/>
+        <untitled-ontology-7:related_to rdf:resource="http://www.semanticweb.org/mamon/ontologies/2026/4/untitled-ontology-7#Dice"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mamon/ontologies/2026/4/untitled-ontology-7#Kernel -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mamon/ontologies/2026/4/untitled-ontology-7#Kernel">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mamon/ontologies/2026/4/untitled-ontology-7#Concept"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mamon/ontologies/2026/4/untitled-ontology-7#Mask -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mamon/ontologies/2026/4/untitled-ontology-7#Mask">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mamon/ontologies/2026/4/untitled-ontology-7#Concept"/>
+        <untitled-ontology-7:used_in rdf:resource="http://www.semanticweb.org/mamon/ontologies/2026/4/untitled-ontology-7#ImageSegmentation"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mamon/ontologies/2026/4/untitled-ontology-7#MaskRCNN -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mamon/ontologies/2026/4/untitled-ontology-7#MaskRCNN">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mamon/ontologies/2026/4/untitled-ontology-7#Architecture"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mamon/ontologies/2026/4/untitled-ontology-7#MedicalSegmentation -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mamon/ontologies/2026/4/untitled-ontology-7#MedicalSegmentation">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mamon/ontologies/2026/4/untitled-ontology-7#Task"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mamon/ontologies/2026/4/untitled-ontology-7#MultiClassSegmentation -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mamon/ontologies/2026/4/untitled-ontology-7#MultiClassSegmentation">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mamon/ontologies/2026/4/untitled-ontology-7#Concept"/>
+        <untitled-ontology-7:part_of rdf:resource="http://www.semanticweb.org/mamon/ontologies/2026/4/untitled-ontology-7#ImageSegmentation"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mamon/ontologies/2026/4/untitled-ontology-7#Normalization -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mamon/ontologies/2026/4/untitled-ontology-7#Normalization">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mamon/ontologies/2026/4/untitled-ontology-7#Method"/>
+        <untitled-ontology-7:part_of rdf:resource="http://www.semanticweb.org/mamon/ontologies/2026/4/untitled-ontology-7#Preprocessing"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mamon/ontologies/2026/4/untitled-ontology-7#ObjectSegmentation -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mamon/ontologies/2026/4/untitled-ontology-7#ObjectSegmentation">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mamon/ontologies/2026/4/untitled-ontology-7#Task"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mamon/ontologies/2026/4/untitled-ontology-7#OxfordPetDataset -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mamon/ontologies/2026/4/untitled-ontology-7#OxfordPetDataset">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mamon/ontologies/2026/4/untitled-ontology-7#Dataset"/>
+        <untitled-ontology-7:used_in rdf:resource="http://www.semanticweb.org/mamon/ontologies/2026/4/untitled-ontology-7#ImageSegmentation"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mamon/ontologies/2026/4/untitled-ontology-7#Padding -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mamon/ontologies/2026/4/untitled-ontology-7#Padding">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mamon/ontologies/2026/4/untitled-ontology-7#Concept"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mamon/ontologies/2026/4/untitled-ontology-7#PascalVOC -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mamon/ontologies/2026/4/untitled-ontology-7#PascalVOC">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mamon/ontologies/2026/4/untitled-ontology-7#Dataset"/>
+        <untitled-ontology-7:used_in rdf:resource="http://www.semanticweb.org/mamon/ontologies/2026/4/untitled-ontology-7#ImageSegmentation"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mamon/ontologies/2026/4/untitled-ontology-7#PixelAccuracy -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mamon/ontologies/2026/4/untitled-ontology-7#PixelAccuracy">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mamon/ontologies/2026/4/untitled-ontology-7#Metric"/>
+        <untitled-ontology-7:checks rdf:resource="http://www.semanticweb.org/mamon/ontologies/2026/4/untitled-ontology-7#ImageSegmentation"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mamon/ontologies/2026/4/untitled-ontology-7#PixelClassification -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mamon/ontologies/2026/4/untitled-ontology-7#PixelClassification">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mamon/ontologies/2026/4/untitled-ontology-7#Concept"/>
+        <untitled-ontology-7:related_to rdf:resource="http://www.semanticweb.org/mamon/ontologies/2026/4/untitled-ontology-7#Mask"/>
+        <untitled-ontology-7:used_in rdf:resource="http://www.semanticweb.org/mamon/ontologies/2026/4/untitled-ontology-7#SemanticSegmentation"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mamon/ontologies/2026/4/untitled-ontology-7#Pooling -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mamon/ontologies/2026/4/untitled-ontology-7#Pooling">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mamon/ontologies/2026/4/untitled-ontology-7#Concept"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mamon/ontologies/2026/4/untitled-ontology-7#Postprocessing -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mamon/ontologies/2026/4/untitled-ontology-7#Postprocessing">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mamon/ontologies/2026/4/untitled-ontology-7#Method"/>
+        <untitled-ontology-7:used_in rdf:resource="http://www.semanticweb.org/mamon/ontologies/2026/4/untitled-ontology-7#ImageSegmentation"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mamon/ontologies/2026/4/untitled-ontology-7#Precision -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mamon/ontologies/2026/4/untitled-ontology-7#Precision">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mamon/ontologies/2026/4/untitled-ontology-7#Metric"/>
+        <untitled-ontology-7:checks rdf:resource="http://www.semanticweb.org/mamon/ontologies/2026/4/untitled-ontology-7#ImageSegmentation"/>
+        <untitled-ontology-7:related_to rdf:resource="http://www.semanticweb.org/mamon/ontologies/2026/4/untitled-ontology-7#Recall"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mamon/ontologies/2026/4/untitled-ontology-7#Preprocessing -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mamon/ontologies/2026/4/untitled-ontology-7#Preprocessing">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mamon/ontologies/2026/4/untitled-ontology-7#Method"/>
+        <untitled-ontology-7:used_in rdf:resource="http://www.semanticweb.org/mamon/ontologies/2026/4/untitled-ontology-7#ImageSegmentation"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mamon/ontologies/2026/4/untitled-ontology-7#Recall -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mamon/ontologies/2026/4/untitled-ontology-7#Recall">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mamon/ontologies/2026/4/untitled-ontology-7#Metric"/>
+        <untitled-ontology-7:checks rdf:resource="http://www.semanticweb.org/mamon/ontologies/2026/4/untitled-ontology-7#ImageSegmentation"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mamon/ontologies/2026/4/untitled-ontology-7#RoadSegmentation -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mamon/ontologies/2026/4/untitled-ontology-7#RoadSegmentation">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mamon/ontologies/2026/4/untitled-ontology-7#Task"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mamon/ontologies/2026/4/untitled-ontology-7#SegNet -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mamon/ontologies/2026/4/untitled-ontology-7#SegNet">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mamon/ontologies/2026/4/untitled-ontology-7#Architecture"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mamon/ontologies/2026/4/untitled-ontology-7#SemanticSegmentation -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mamon/ontologies/2026/4/untitled-ontology-7#SemanticSegmentation">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mamon/ontologies/2026/4/untitled-ontology-7#Concept"/>
+        <untitled-ontology-7:part_of rdf:resource="http://www.semanticweb.org/mamon/ontologies/2026/4/untitled-ontology-7#ImageSegmentation"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mamon/ontologies/2026/4/untitled-ontology-7#SkipConnection -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mamon/ontologies/2026/4/untitled-ontology-7#SkipConnection">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mamon/ontologies/2026/4/untitled-ontology-7#Concept"/>
+        <untitled-ontology-7:part_of rdf:resource="http://www.semanticweb.org/mamon/ontologies/2026/4/untitled-ontology-7#U-Net"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mamon/ontologies/2026/4/untitled-ontology-7#Stride -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mamon/ontologies/2026/4/untitled-ontology-7#Stride">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mamon/ontologies/2026/4/untitled-ontology-7#Concept"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mamon/ontologies/2026/4/untitled-ontology-7#Thresholding -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mamon/ontologies/2026/4/untitled-ontology-7#Thresholding">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mamon/ontologies/2026/4/untitled-ontology-7#Method"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mamon/ontologies/2026/4/untitled-ontology-7#TransferLearning -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mamon/ontologies/2026/4/untitled-ontology-7#TransferLearning">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mamon/ontologies/2026/4/untitled-ontology-7#Method"/>
+        <untitled-ontology-7:used_in rdf:resource="http://www.semanticweb.org/mamon/ontologies/2026/4/untitled-ontology-7#DeepLabV3"/>
+        <untitled-ontology-7:used_in rdf:resource="http://www.semanticweb.org/mamon/ontologies/2026/4/untitled-ontology-7#U-Net"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mamon/ontologies/2026/4/untitled-ontology-7#U-Net -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mamon/ontologies/2026/4/untitled-ontology-7#U-Net">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mamon/ontologies/2026/4/untitled-ontology-7#Architecture"/>
+        <untitled-ontology-7:related_to rdf:resource="http://www.semanticweb.org/mamon/ontologies/2026/4/untitled-ontology-7#Decoder"/>
+        <untitled-ontology-7:related_to rdf:resource="http://www.semanticweb.org/mamon/ontologies/2026/4/untitled-ontology-7#Encoder"/>
+        <untitled-ontology-7:related_to rdf:resource="http://www.semanticweb.org/mamon/ontologies/2026/4/untitled-ontology-7#SkipConnection"/>
+        <untitled-ontology-7:requires rdf:resource="http://www.semanticweb.org/mamon/ontologies/2026/4/untitled-ontology-7#CNN"/>
+        <untitled-ontology-7:used_in rdf:resource="http://www.semanticweb.org/mamon/ontologies/2026/4/untitled-ontology-7#ImageSegmentation"/>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi -->
+
