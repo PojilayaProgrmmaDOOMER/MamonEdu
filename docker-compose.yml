@@ -1,0 +1,35 @@
+services:
+  db:
+    image: postgres:16
+    container_name: mamontedu_db
+    environment:
+      POSTGRES_DB: ai_eduseg
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: 12345678
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    ports:
+      - "5432:5432"
+
+  backend:
+    build: ./backend
+    container_name: mamontedu_backend
+    depends_on:
+      - db
+    environment:
+      DATABASE_URL: postgresql://postgres:12345678@db:5432/ai_eduseg
+    volumes:
+      - ./backend/static:/app/static
+    ports:
+      - "8000:8000"
+
+  frontend:
+    build: ./frontend
+    container_name: mamontedu_frontend
+    depends_on:
+      - backend
+    ports:
+      - "80:80"
+
+volumes:
+  postgres_data:
